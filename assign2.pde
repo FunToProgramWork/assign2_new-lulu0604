@@ -34,16 +34,16 @@ void draw() {
   image(groundhogIdleImg,320,80);
   image(cabbageImg,random(0,560),240);
   if(keyPressed){
-  if(keyCode== LEFT){
+  if(key== 'a'){
   image( groundhogLeftImg ,320-80,80);
   }
-  if(keyCode== DOWN){
+  if(key== 's'){
   image( groundhogDownImg ,320,80+80);
   }
-  if(keyCode== RIGHT){
+  if(key== 'd'){
   image( groundhogRightImg ,320+80,80);
   }
-  if(keyCode== UP){
+  if(key== 'w'){
      image( groundhogIdleImg ,320,80-80);
   }
 }
